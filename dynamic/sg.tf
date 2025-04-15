@@ -1,4 +1,4 @@
-# block inside resource getting repeated
+# block inside resource getting repeated is dynamic block
 resource "aws_security_group" "roboshop-all" { 
     name        = "dynamic-demo"
     description = "dynamic-demo"
