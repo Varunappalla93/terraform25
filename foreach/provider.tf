@@ -8,10 +8,10 @@ terraform {
 
   
 backend "s3" {
-    bucket = "daws76s-remote-state"
+    bucket = "76sbucket"
     key    = "foreach"
     region = "us-east-1"
-    dynamodb_table = "daws76s-locking"
+    dynamodb_table = "76slocking"
   }
 }
 
